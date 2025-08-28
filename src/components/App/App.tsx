@@ -6,7 +6,7 @@ import VoteOptions from '../VoteOptions/VoteOptions';
 // Update the import path below to match the actual location and filename of VoteStats
 import VoteStats from '../VoteStats/VoteStats';
 import Notification from '../Notification/Notification';
-import { Votes, VoteType } from '../types/votes';
+import type { Votes, VoteType } from '../types/votes';
 
 function App() {
   const [votes, setVotes] = useState<Votes>({
